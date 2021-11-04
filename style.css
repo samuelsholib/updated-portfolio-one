@@ -30,7 +30,7 @@ P {
 }
 
 .pic {
-    display: inline;
+    display: block;
     margin: 0 auto;
     margin-left: -25%;
     height: 100%;
@@ -40,4 +40,5 @@ P {
 .lists {
     display: block;
     color: crimson;
+    background-color: blanchedalmond;
 }
