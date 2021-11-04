@@ -1,47 +1,43 @@
-        body {
-            background-color: darkblue;
-            color: whitesmoke;
-            font-family: 'Zen Antique', serif;
-        }
-        
-        header {
-            padding: 20px;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            background-color: aquamarine;
-            color: black;
-            background-color: gray;
-        }
-        
-        header img {
-            border-radius: 8px;
-            width: 50%;
-        }
-        
-        header h1 {
-            display: inline-block;
-            font-size: 50px;
-        }
-        
-        .portfolio ul {
-            display: block;
-        }
-        
-        .info P {
-            display: inline;
-        }
-        
-        .pic-editor {
-            width: 100px;
-            height: 100px;
-            position: relative;
-            overflow: hidden;
-            border-radius: 50%;
-        }
-        
-        .my-pic {
-            display: inline;
-            margin: 0 auto;
-            margin-left: -25%; //centers the image
-            height: 100%;
-            width: auto;
-        }
+body {
+    background-color: darkblue;
+    color: whitesmoke;
+    font-family: 'Zen Antique', serif;
+}
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    background-color: gray;
+    flex-direction: column;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 50px;
+}
+
+P {
+    display: inline;
+}
+
+.pic-editor {
+    width: 100px;
+    height: 100px;
+    position: inherit;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.pic {
+    display: inline;
+    margin: 0 auto;
+    margin-left: -25%;
+    height: 100%;
+    width: auto;
+}
+
+.lists {
+    display: block;
+    color: crimson;
+}
