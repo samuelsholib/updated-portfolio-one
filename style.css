@@ -1,6 +1,6 @@
             * {
                 box-sizing: border-box;
-                padding: 0;
+                padding: 20;
                 margin: 0;
             }
             
@@ -8,8 +8,16 @@
                 background-color: gray;
             }
             
+            .container {
+                justify-content: flex-start;
+                display: flex;
+                flex-direction: row;
+                margin-top: 25px;
+                margin-left: 0%;
+            }
+            
             header {
-                width: 80%;
+                width: 90%;
                 padding: 20px;
                 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
                 background-color: blue;
@@ -26,10 +34,12 @@
             }
             
             .about-me {
-                height: 200px;
+                height: 300px;
+                max-width: 30%;
                 background-color: wheat;
                 color: blue;
-                background-position: center;
+                margin-right: 20px;
+                margin-left: 0%;
             }
             
             .float-left {
@@ -73,6 +83,7 @@
             .projects {
                 margin-bottom: 20px;
                 padding: 50px;
+                width: fit-content;
                 height: 700px;
                 background-color: #0072bb;
                 color: #ffffff;
@@ -86,10 +97,11 @@
             .Contact {
                 padding: 30px;
                 clear: both;
+                color: yellow;
                 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
                 text-align: center;
             }
             
-            .Contact h2 {
-                font-size: 20px;
+            a:hover {
+                background-color: goldenrod;
             }
