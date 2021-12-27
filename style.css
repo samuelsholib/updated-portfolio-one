@@ -23,6 +23,7 @@
                 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
                 background-color: blue;
                 color: #ffffff;
+                margin-left: 10px;
             }
             
             .contact a {
@@ -35,7 +36,9 @@
             }
             
             header .pic {
-                width: 70%;
+                width: 90%;
+                margin-left: 40px;
+                padding: 20px;
             }
             
             .about-me {
@@ -44,7 +47,7 @@
                 background-color: wheat;
                 color: blue;
                 margin-right: 20px;
-                margin-left: 0%;
+                margin-left: 10px;
             }
             
             .float-left {
