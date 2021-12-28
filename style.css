@@ -1,115 +1,119 @@
-            * {
-                box-sizing: border-box;
-                padding: 20;
-                margin: 0;
-            }
-            
-            body {
-                background-color: gray;
-            }
-            
-            .container {
-                justify-content: flex-start;
-                width: 90%;
-                display: flex;
-                flex-direction: row;
-                margin-top: 25px;
-                margin-left: 0%;
-            }
-            
-            header {
-                width: 90%;
-                padding: 20px;
-                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-                background-color: blue;
-                color: #ffffff;
-                margin-left: 10px;
-            }
-            
-            .contact a {
-                color: darkorange;
-            }
-            
-            header h1 {
-                display: inline-block;
-                font-size: 48px;
-            }
-            
-            header .pic {
-                width: 90%;
-                margin-left: 40px;
-                padding: 20px;
-            }
-            
-            .about-me {
-                height: 300px;
-                max-width: 30%;
-                background-color: wheat;
-                color: blue;
-                margin-right: 20px;
-                margin-left: 10px;
-            }
-            
-            .float-left {
-                float: left;
-                margin-right: 25px;
-            }
-            
-            .float-right {
-                float: right;
-                margin-left: 25px;
-            }
-            
-            main {
-                width: 80%;
-                display: inline-block;
-                margin-left: 20px;
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            }
-            
-            .experience {
-                margin-right: 20px;
-                padding: 20px;
-                clear: both;
-                float: right;
-                width: 20%;
-                height: 100%;
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                background-color: blueviolet;
-            }
-            
-            .experience {
-                margin-bottom: 32px;
-                color: #ffffff;
-            }
-            
-            .experience h2 {
-                margin-bottom: 10px;
-                text-align: center;
-            }
-            
-            .projects {
-                margin-bottom: 20px;
-                padding: 50px;
-                width: fit-content;
-                height: 500px;
-                background-color: #0072bb;
-                color: #ffffff;
-            }
-            
-            .projects h2 {
-                margin-bottom: 20px;
-                font-size: 36px;
-            }
-            
-            .Contact {
-                padding: 30px;
-                clear: both;
-                color: yellow;
-                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-                text-align: center;
-            }
-            
-            a:hover {
-                background-color: goldenrod;
-            }
+* {
+    box-sizing: border-box;
+    padding: 20;
+    margin: 0;
+}
+
+body {
+    background-color: gray;
+}
+
+.container {
+    justify-content: flex-start;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    margin-left: 0%;
+}
+
+header {
+    width: 90%;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: blue;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.contact a {
+    color: darkorange;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+header .pic {
+    width: 90%;
+    margin-left: 40px;
+    padding: 20px;
+}
+
+.about-me {
+    height: 300px;
+    max-width: 30%;
+    background-color: wheat;
+    color: blue;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+main {
+    width: 80%;
+    display: inline-block;
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.experience {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: blueviolet;
+}
+
+.experience {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.experience h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.projects {
+    margin-bottom: 20px;
+    padding: 50px;
+    width: fit-content;
+    height: 500px;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.projects h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.resume {
+    width: 80%;
+}
+
+.Contact {
+    padding: 30px;
+    clear: both;
+    color: yellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+a:hover {
+    background-color: goldenrod;
+}
